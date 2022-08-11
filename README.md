@@ -99,10 +99,10 @@ module.exports = {
 //别名路径提示 新建jsconfig.json
 {
 	"compilerOptions": {
-		    "baseUrl": "./",
-		    "paths": {
-		        "@/*": ["src/*"]
-		    }
+    "baseUrl": "./",
+    "paths": {
+        "@/*": ["src/*"]
+    }
 	}
 }
 ```
