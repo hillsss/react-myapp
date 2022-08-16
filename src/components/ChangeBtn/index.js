@@ -7,7 +7,6 @@ export default function SelectTheme (props) {
   }, [])
   const { changeTheme } = props
   const btnWrapper = useRef()
-  const lightBtn = useRef()
   let btns = document.getElementsByClassName('btn');
   const changeBtn = (e, val) => {
     changeTheme(val)
