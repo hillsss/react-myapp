@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from '@/pages/Layout';
 import Login from '@/pages/Login';
 import One from '@/pages/One';
+import Two from '@/pages/Two';
 
 function App () {
   return (
@@ -16,6 +17,7 @@ function App () {
           <Route path='/' element={<Layout />}></Route>
           <Route path='/login' element={<Login />}></Route>
           <Route path='/one' element={<One />}></Route>
+          <Route path='/two' element={<Two />}></Route>
         </Routes>
       </div>
     </BrowserRouter>

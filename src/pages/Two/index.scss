@@ -1,0 +1,30 @@
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+  transition: background-color 1s linear;
+  perspective: 1000px; //  https://www.w3school.com.cn/cssref/pr_perspective.asp
+  --c-wrap-shadow1: #6dd5ed;
+  --c-wrap-shadow2: #005aa7;
+  --c-wrap-bg: #00b4db;
+  --c-btn-shadow1: #005aa7;
+  --c-btn-shadow2: #6dd5ed;
+  --c-txt1: #111;
+  --c-txt2: #111;
+  background-color: #6dd5fa;
+}
+
+.dark {
+  background-color: #2c3e50;
+  transition: background-color 1s linear;
+  --c-wrap-shadow1: #292929;
+  --c-wrap-shadow2: #202020;
+  --c-wrap-bg: #2c3e50;
+  --c-btn-shadow1: #323232;
+  --c-btn-shadow2: #444444;
+  --c-txt1: #888;
+  --c-txt2: #fff;
+}

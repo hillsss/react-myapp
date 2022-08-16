@@ -10,7 +10,7 @@ export default function Login () {
   const [password, setPassword] = useState('')
   const login = () => {
     if (name === 'user' && password === '123456') {
-      navigate('/one')
+      navigate('/one', { replace: true })
     } else {
       message.error("请输入提示的用户名和密码！！！");
     }

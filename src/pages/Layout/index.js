@@ -20,7 +20,7 @@ export default function Layout () {
           <dd className="animate__animated animate__lightSpeedInRight animate__slow wz">Use Animate css</dd>
           <dd className='animate__animated animate__lightSpeedInRight animate__slow scroll-down'> </dd>
           <dd className='animate__animated animate__lightSpeedInRight animate__slow button'>
-            <div className='text' onClick={() => { goLogin() }}>check it!</div>
+            <div className='text' onClick={() => { goLogin() }}>click it!</div>
             <svg width='200' height='50'>
               <rect className='shape' width='200' height='50'></rect>
             </svg>
@@ -28,7 +28,7 @@ export default function Layout () {
         </dl>
       </div>
       <div className='home-footer'>
-        <p>Built by @hisslll
+        <p>Built by @hillsss
           {/* <a className='link' target='_blank' rel="noreferrer" href="https://github.com/hillsss">@hisslll</a> */}
         </p>
       </div>
